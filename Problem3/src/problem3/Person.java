@@ -4,9 +4,9 @@ package problem3;
  * Person represents all possible people affiliated with the school.
  * Class contains school identification number and other meta data.
  * 
- * @author cgallinaro
+ * @author Evan
  */
-public class Person {
+public class Person implements Comparable<Person> {
     
     private final String id;  // School identifier
     
@@ -16,7 +16,7 @@ public class Person {
 
     /**
      * Constructor
-     * @param id
+     * @param id New Person's id
      */
     public Person(String id) {
         this.id = id;
@@ -24,9 +24,9 @@ public class Person {
 
     /**
      * Constructor
-     * @param id
-     * @param name
-     * @param age
+     * @param id New Person's id
+     * @param name New Person's name
+     * @param age New Person's age
      */
     public Person(String id, String name, int age) {
         this.id = id;
@@ -72,6 +72,18 @@ public class Person {
      */
     public void setAge(int age) {
         this.age = age;
+    }
+    
+    /**
+     * Compares the IDs of two Person objects
+     * 
+     * @param other The other Person object
+     * @return The numerical difference between the two IDs
+     */
+    @Override
+    public int compareTo(Person other)
+    {
+        return Integer.parseInt(this.id) - Integer.parseInt(other.id);
     }
     
 }
