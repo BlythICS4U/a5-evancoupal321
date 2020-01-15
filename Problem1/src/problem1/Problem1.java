@@ -13,7 +13,7 @@ public class Problem1 {
 
     /**
      * looping1
-     * RUNTIME COMPLEXITY IS: O(?)
+     * RUNTIME COMPLEXITY IS: O(n)
      * 
      * @param n
      */
@@ -25,7 +25,7 @@ public class Problem1 {
 
     /**
      * looping2
-     * RUNTIME COMPLEXITY IS: O(?)
+     * RUNTIME COMPLEXITY IS: O(2n) = O(n)
      * 
      * @param n
      */
@@ -37,7 +37,7 @@ public class Problem1 {
 
     /**
      * looping3
-     * RUNTIME COMPLEXITY IS: O(?)
+     * RUNTIME COMPLEXITY IS: O(n^2)
      * 
      * @param n
      */
@@ -51,7 +51,7 @@ public class Problem1 {
 
     /**
      * looping4
-     * RUNTIME COMPLEXITY IS: O(?)
+     * RUNTIME COMPLEXITY IS: O((n^2 + n)/2) = O(n^2)
      * 
      * @param n
      */
@@ -64,8 +64,8 @@ public class Problem1 {
     }
 
     /**
-     * looping4
-     * RUNTIME COMPLEXITY IS: O(?)
+     * looping5
+     * RUNTIME COMPLEXITY IS: O(n^2)
      * 
      * @param n
      */
@@ -77,7 +77,7 @@ public class Problem1 {
 
     /**
      * looping6
-     * RUNTIME COMPLEXITY IS: O(?)
+     * RUNTIME COMPLEXITY IS: O(n^2 * n^3) = O(n^5)
      * 
      * @param n
      */
@@ -95,7 +95,7 @@ public class Problem1 {
 
     /**
      * recursive1
-     * RUNTIME COMPLEXITY IS: O(?)
+     * RUNTIME COMPLEXITY IS: O(n)
      *
      * @param n
      * @return
@@ -110,7 +110,7 @@ public class Problem1 {
 
     /**
      * recursive2
-     * RUNTIME COMPLEXITY IS: O(?)
+     * RUNTIME COMPLEXITY IS: O(n/5) = O(n)
      * 
      * @param n
      * @return
@@ -125,7 +125,7 @@ public class Problem1 {
 
     /**
      * recursive3
-     * RUNTIME COMPLEXITY IS: O(?)
+     * RUNTIME COMPLEXITY IS: O(log n)
      * 
      * @param n
      * @return
@@ -140,7 +140,7 @@ public class Problem1 {
 
     /**
      * recursive4
-     * RUNTIME COMPLEXITY IS: O(?)
+     * RUNTIME COMPLEXITY IS: O(2^n)
      * 
      * @param n
      * @param o
